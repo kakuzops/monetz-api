@@ -1,0 +1,2 @@
+create table users (id varchar(50) PRIMARY KEY ,email varchar(255),password varchar(255),first_name varchar(100), last_name varchar(100), created_at date, updated_at date);
+INSERT INTO users (id, email, password, first_name, last_name, created_at, updated_at) values ('1','k@k.com','123456', 'Leonardo', 'Silva', now(), null);
